@@ -1,0 +1,120 @@
+body, h1, h2, p, ul, li {
+    margin: 20  ;
+    padding: 20;
+}
+body {
+    background-color: #white;
+    font-family: Arial, sans-serif;
+}
+.dark-mode{
+  background-color: black;
+  color:white;
+}
+.Light-mode{
+  background-color: White;
+  color:Black;
+}
+
+header {
+    background-color: #666;
+    color: #FDFEFE ;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+.navbar {
+
+    background-color: #333;
+    color: white;
+    font-size: 130%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+navbar-right{
+    display: flex;
+    align-items: right;
+
+}
+navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+
+h1{
+    color: black;
+    font-size: 190%;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.box{
+    background-color: #999 ;
+    border: 1px solid;
+    padding: 21px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+    text-align: justify;
+
+}
+
+.main{
+    display: flex;
+    min-height: 1000px;
+    margin: auto;
+    width: 2000px;
+}
+
+.left-side{
+    flex: 4;
+    padding: 10px;
+}
+
+
+
+h1{
+    color: black;
+    font-size: 190%;
+}
+
+
+}
+
+.right-side{
+    flex: 1.5;
+    padding: 10px;
+}
+
+.f1{
+    background-color: #666;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+}
